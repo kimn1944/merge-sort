@@ -1,7 +1,7 @@
 	.data
-length: .word 8
-nums: 	.word  0, 12, 3, 5, 0, 99, 7, 10
-sorted: .word 0:8
+length: .word 8						# length of the array
+nums: 	.word  0, 12, 3, 5, 0, 99, 7, 10		# array to be sorted
+sorted: .word 0:8					# location of the sorted array
 space: 	.asciiz " "
 	.text
 # adding adciiz dresses
